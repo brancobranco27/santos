@@ -1,0 +1,60 @@
+body {
+    color:black;
+    background: beige; 
+    margin: 0px;
+    font-family: "Reenie Beanie", serif;
+}
+
+ header { 
+border-bottom: solid 2px rosybrown;
+padding: 10px;
+font-size: 32;
+color:rosybrown
+ }
+
+
+ .chamada{
+    background: rgb(226, 197, 226);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content:center ;
+ }
+
+ .chamada-texto {
+    margin-right: 20px;
+
+ }
+
+ h1 {
+    font-size: 40px;
+ }
+
+
+ p{
+    font-size: 50px;
+ }
+ 
+   
+ 
+ .categoria-videos{
+    display: flex;
+    overflow-x: auto;
+    gap: 20px
+ }
+
+  categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+
+ }
+ 
+ .categoria-videos img {
+     opacity: o.5;
+     height: 50px;
+ }
+
+ .categoria-videos img:hover {
+    opacity: 1.0;
+borde: 2px solid pink 
+ }
